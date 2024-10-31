@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "type": "Button",
+    "descripcion": "Portal VTV",
+    "idPadre": 0
+  },
+  {
+    "id": 2,
+    "type": "Button",
+    "descripcion": "Crear una cuenta",
+    "idPadre": 1
+  },
+  {
+    "id": 3,
+    "type": "Text",
+    "descripcion": "Para crear una cuenta en el portal de VTV, siga los pasos a continuación:<br> Registro de usuario: <br> 1-Acceda al portal en  <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a>.<br> 2-Desplácese hacia el final de la página y haga clic en la opción CREAR MI CUENTA. <br>3-Complete los datos solicitados. <br>4-Haga clic en REGISTRAR <BR> Tras esto, recibirá un email para validar el usuario (este email podría llegar a la carpeta de spam o correo no deseado; si es así, muévalo a la bandeja de entrada). <BR> Ingreso al portal:<BR>Una vez validada la cuenta, inicie sesión en el portal con su usuario y contraseña.<BR>En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para acceder al menú principal.<BR>Una vez dentro de la cuenta deberá, desde la sección MIS VEHÍCULOS, registrar su vehículo",
+    "idPadre": 2
+  },
+  {
+    "id": 4,
+    "type": "Button",
+    "descripcion": "Olvidé mi contraseña",
+    "idPadre": 1
+  },
+  {
+    "id": 5,
+    "type": "Text",
+    "descripcion": "Si olvidó su contraseña, siga estos pasos para restablecerla:<BR>1- Acceda al portal en  <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a>.<BR>2-Justo debajo del campo para ingresar el usuario, haga clic en la opción OLVIDASTE TU CONTRASEÑA.<BR>3- Recibirá un correo electrónico con las instrucciones para restablecer su contraseña. Siga los pasos indicados en el email.<BR>Requisitos para la nueva contraseña:<BR>- La contraseña debe tener entre 6 y 12 caracteres.<BR>- Debe incluir al menos una letra mayúscula y un número.<BR>Consejo:<BR>Al escribir su nueva contraseña, haga clic en el ícono del \"ojo\", que aparece en el lado derecho del campo de contraseña. Esto le permitirá visualizar lo que escribe, evitando errores de tipeo o la posibilidad de que el campo se autocomplete con una contraseña guardada por error.",
+    "idPadre": 4
+  },
+  {
+    "id": 6,
+    "type": "Button",
+    "descripcion": "Turnos",
+    "idPadre": 0
+  },
+  {
+    "id": 7,
+    "type": "Button",
+    "descripcion": "Solicitar",
+    "idPadre": 6
+  },
+  {
+    "id": 8,
+    "type": "Text",
+    "descripcion": "Para solicitar un turno de la VTV, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2-En la sección MIS VEHÍCULOS, ubique el vehículo correspondiente y haga clic en SOLICITAR TURNO junto a la patente.<BR> -Nota: Si no le aparece el botón \"Solicitar Turno\", esto puede indicar que el vehículo ya tiene un turno asignado desde otra cuenta. En ese caso, por favor comuníquese a info@vtv.gba.gob.ar para que podamos verificarlo.<BR>3- Seleccione una planta y una fecha en el calendario. Las fechas disponibles aparecerán en color celeste o verde; las fechas en color blanco indican falta de disponibilidad o que la planta está inhabilitada.<BR>4-Tras elegir la fecha y el horario, confirme el turno. Recibirá el comprobante de su turno en su correo electrónico.Nota adicional: Si no visualiza el vehículo para el cual desea solicitar el turno, deberá cargarlo en la sección MIS VEHÍCULOS.",
+    "idPadre": 7
+  },
+  {
+    "id": 9,
+    "type": "Button",
+    "descripcion": "Anular",
+    "idPadre": 6
+  },
+  {
+    "id": 10,
+    "type": "Text",
+    "descripcion": "Para anular un turno, siga estos pasos: <BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.<BR>4- En el margen derecho, haga clic en ANULAR para cancelar el turno.<BR>Nota: Si usa un celular, deslice la barra gris debajo del vehículo hacia la derecha hasta encontrar el botón ANULAR.",
+    "idPadre": 9
+  },
+  {
+    "id": 11,
+    "type": "Button",
+    "descripcion": "Consultar",
+    "idPadre": 6
+  },
+  {
+    "id": 12,
+    "type": "Text",
+    "descripcion": " Para consultar sus turnos, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.",
+    "idPadre": 11
+  }
+]
