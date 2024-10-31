@@ -68,7 +68,43 @@
   {
     "id": 12,
     "type": "Text",
-    "descripcion": " Para consultar sus turnos, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.",
+    "descripcion": "Para consultar sus turnos, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.",
     "idPadre": 11
+  },
+  {
+    "id": 13,
+    "type": "Button",
+    "descripcion": "Mis Vehículos",
+    "idPadre": 0
+  },
+  {
+    "id": 14,
+    "type": "Text",
+    "descripcion": "En la sección MIS VEHÍCULOS deberá cargar aquellos vehículos para los que desee realizar la verificación técnica vehicular.<BR>El sistema clasificará los vehículos según usted sea o no el titular de los mismos.<BR>Una vez que los vehículos estén cargados en esta sección, podrá gestionar los turnos correspondientes.",
+    "idPadre": 13
+  },
+  {
+    "id": 15,
+    "type": "Button",
+    "descripcion": "Cargar Vehículo",
+    "idPadre": 13
+  },
+  {
+    "id": 16,
+    "type": "Text",
+    "descripcion": "Para cargar sus vehículos, dentro del portal, siga estos pasos:<BR>1- Diríjase al margen superior izquierdo y haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>2- Seleccione la opción MIS VEHÍCULOS.<BR>3- Haga clic en AGREGAR y complete los datos solicitados de su vehículo.<BR>Nota: Recuerde ingresar el número de patente sin espacios.<BR>Una vez que haya ingresado toda la información, podrá solicitar un turno para su vehículo.",
+    "idPadre": 15
+  },
+  {
+    "id": 17,
+    "type": "Button",
+    "descripcion": "Eliminar vehículo",
+    "idPadre": 13
+  },
+  {
+    "id": 18,
+    "type": "Text",
+    "descripcion": "Para eliminar un vehículo del portal, siga estos pasos:<BR>1- Acceda a la sección MIS VEHÍCULOS.<BR>2- En el lado derecho de la pantalla, donde se muestran los datos del vehículo, encontrará un ícono de un cesto de basura.<BR>3- Haga clic en este ícono para eliminar el vehículo.<BR>Nota: Si tiene asignado un vehículo que no le pertenece, también puede eliminarlo desde esta sección.",
+    "idPadre": 17
   }
 ]

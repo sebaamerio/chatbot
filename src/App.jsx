@@ -50,24 +50,25 @@ function App() {
             </span>
             <p className="chatbot__dialog">Hola ¿ En que te puedo ayudar ?</p>
           </li>
-          {chatBot.map((item) => {
-            if (item.type == "Button") {
-              return (
-                <li className="chatbot__button" key={item.id}>
-                  <Button variant="outlined" disabled>
+          <li className="chatbot__button">
+            {chatBot.map((item) => {
+              if (item.type == "Button") {
+                return (
+                  <Button variant="outlined" disabled key={item.id}>
                     <span>{item.descripcion}</span>
                   </Button>
-                </li>
-              );
-            }
-          })}
+                );
+              }
+            })}
+          </li>
+
           {menu.map((item) => {
             if (item.type == "Button") {
               return (
                 <li className="chatbot__button" key={item.id}>
                   <Button
-                    variant="outlined"
                     key={item.id}
+                    variant="outlined"
                     onClick={() => {
                       handler(item);
                     }}
@@ -78,7 +79,7 @@ function App() {
               );
             } else {
               return (
-                <div key={item.id}>
+                <div className="chatbot__respuesta" key={item.id}>
                   <li className="chatbot__chat">
                     <span className="chatbot__robot">
                       <Avatar alt="Robot" src={robotImg} />
@@ -88,19 +89,25 @@ function App() {
                       dangerouslySetInnerHTML={{ __html: item.descripcion }}
                     />
                   </li>
-
-                  <li className="chatbot__button" key={item.id}>
-                    <Button variant="outlined" onClick={handlerInicio}>
-                      <span> Inicio</span>
-                    </Button>
-                    <Button variant="outlined" onClick={handlerChatOnline}>
-                      <span> Chat Online</span>
-                    </Button>
-                  </li>
                 </div>
               );
             }
           })}
+
+          {chatBot.length > 0 ? (
+            <div className="">
+              <li className="chatbot__button">
+                <Button variant="outlined" onClick={handlerInicio}>
+                  <span> Inicio</span>
+                </Button>
+                <Button variant="outlined" onClick={handlerChatOnline}>
+                  <span> Chat Online</span>
+                </Button>
+              </li>
+            </div>
+          ) : (
+            <span></span>
+          )}
         </ul>
         <div className="chat-input">
           <textarea placeholder="Ingrese un mensaje..." required></textarea>
