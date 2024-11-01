@@ -38,10 +38,7 @@ function App() {
     <>
       <div className="chatbot">
         <header className="chatbot__header">
-          <Avatar alt="Robot" src={robotImg} />
-          <Typography variant="h5" sx={{ color: "#fff" }}>
-            Chatbot
-          </Typography>
+          <span>Bienvenido al canal de atención virtual.</span>
         </header>
         <ul className="chatbot__chatbox">
           <li className="chatbot__chat">
@@ -50,7 +47,7 @@ function App() {
             </span>
             <p className="chatbot__dialog">Hola ¿ En que te puedo ayudar ?</p>
           </li>
-          <li className="chatbot__button">
+          <li className="chatbot__menu">
             {chatBot.map((item) => {
               if (item.type == "Button") {
                 return (
@@ -61,11 +58,10 @@ function App() {
               }
             })}
           </li>
-
-          {menu.map((item) => {
-            if (item.type == "Button") {
-              return (
-                <li className="chatbot__button" key={item.id}>
+          <li className="chatbot__menu">
+            {menu.map((item) => {
+              if (item.type == "Button") {
+                return (
                   <Button
                     key={item.id}
                     variant="outlined"
@@ -75,28 +71,25 @@ function App() {
                   >
                     <span>{item.descripcion}</span>
                   </Button>
-                </li>
-              );
-            } else {
-              return (
-                <div className="chatbot__respuesta" key={item.id}>
-                  <li className="chatbot__chat">
+                );
+              } else {
+                return (
+                  <li className="chatbot__chat" key={item.id}>
                     <span className="chatbot__robot">
                       <Avatar alt="Robot" src={robotImg} />
                     </span>
                     <p
-                      className="chatbot__text"
+                      className="chatbot__dialog"
                       dangerouslySetInnerHTML={{ __html: item.descripcion }}
                     />
                   </li>
-                </div>
-              );
-            }
-          })}
-
+                );
+              }
+            })}
+          </li>
           {chatBot.length > 0 ? (
-            <div className="">
-              <li className="chatbot__button">
+            <div className="chatbot__chatonline">
+              <li className="chatbot__menu">
                 <Button variant="outlined" onClick={handlerInicio}>
                   <span> Inicio</span>
                 </Button>
@@ -109,7 +102,7 @@ function App() {
             <span></span>
           )}
         </ul>
-        <div className="chat-input">
+        <div className="chatbot__input">
           <textarea placeholder="Ingrese un mensaje..." required></textarea>
           <span id="send-btn">
             <SendIcon />
