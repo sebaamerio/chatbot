@@ -1,14 +1,13 @@
 import { useEffect } from "react";
 
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
 import SendIcon from "@mui/icons-material/Send";
 
 import { useChatbot } from "./hook/useChatbot.js";
 import { useMenu } from "./hook/useMenu.js";
 
-import robotImg from "./assets/robot-5.avif";
+import robotImg from "./assets/chatvtv.jpeg";
 import "./style/style.css";
 
 function App() {
@@ -41,11 +40,13 @@ function App() {
           <span>Bienvenido al canal de atención virtual.</span>
         </header>
         <ul className="chatbot__chatbox">
-          <li className="chatbot__chat">
-            <span className="chatbot__robot">
-              <Avatar alt="Robot" src={robotImg} />
-            </span>
-            <p className="chatbot__dialog">Hola ¿ En que te puedo ayudar ?</p>
+          <li className="chatbot__menu">
+            <li className="chatbot__chat">
+              <span className="chatbot__robot">
+                <Avatar alt="Robot" src={robotImg} />
+              </span>
+              <p className="chatbot__dialog">Hola ¿ En que te puedo ayudar ?</p>
+            </li>
           </li>
           <li className="chatbot__menu">
             {chatBot.map((item) => {
@@ -102,7 +103,7 @@ function App() {
             <span></span>
           )}
         </ul>
-        <div className="chatbot__input">
+        <div className="chatbot__input" style={{ display: "none" }}>
           <textarea placeholder="Ingrese un mensaje..." required></textarea>
           <span id="send-btn">
             <SendIcon />

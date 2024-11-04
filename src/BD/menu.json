@@ -106,5 +106,41 @@
     "type": "Text",
     "descripcion": "Para eliminar un vehículo del portal, siga estos pasos:<BR>1- Acceda a la sección MIS VEHÍCULOS.<BR>2- En el lado derecho de la pantalla, donde se muestran los datos del vehículo, encontrará un ícono de un cesto de basura.<BR>3- Haga clic en este ícono para eliminar el vehículo.<BR>Nota: Si tiene asignado un vehículo que no le pertenece, también puede eliminarlo desde esta sección.",
     "idPadre": 17
+  },
+  {
+    "id": 19,
+    "type": "Button",
+    "descripcion": "Información y valores",
+    "idPadre": 0
+  },
+  {
+    "id": 20,
+    "type": "Text",
+    "descripcion": "Puede consultar los valores actualizados de la VTV en el siguiente enlace   <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_costos.php\"> Costos vtv</a>",
+    "idPadre": 19
+  },
+  {
+    "id": 21,
+    "type": "Button",
+    "descripcion": "Exenciones CUD",
+    "idPadre": 19
+  },
+  {
+    "id": 22,
+    "type": "Text",
+    "descripcion": "Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación:<BR>1- Exención de pago de ARBA.<BR>2- Símbolo de uso correspondiente.<BR>3- Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<BR>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco.<BR>La exención se otorga para un (1) solo vehículo por año.<BR>Para obtener más información, puede consultar este enlace o comunicarse a través del correo: usuariosvtv@transporte.gba.gob.ar.",
+    "idPadre": 21
+  },
+  {
+    "id": 23,
+    "type": "Button",
+    "descripcion": "Bonificaciones Jubilados/ Pensionados",
+    "idPadre": 19
+  },
+  {
+    "id": 22,
+    "type": "Text",
+    "descripcion": "Los jubilados y pensionados pueden acceder a una bonificación especial del 50% en el servicio de verificación técnica, siempre que cumplan con los siguientes requisitos:<BR>- Ingresos: No deben superar el equivalente a dos haberes mínimos jubilatorios. Deberán presentar el último recibo de haberes como comprobante.<BR>- Titularidad: Deben ser titulares del vehículo.<BR>- VTV Vigente: Es necesario tener la VTV vigente en la Provincia de Buenos Aires.<BR>Este beneficio se otorgará una vez al año para un solo vehículo por persona que cumpla con los requisitos.",
+    "idPadre": 23
   }
 ]

@@ -21,7 +21,8 @@ body {
 }
 
 .chatbot {
-  width: 380px;
+  width: 350px;
+  margin: 5px;
   background: #f8f6f6;
   border-radius: 15px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5),
@@ -57,9 +58,9 @@ body {
 }
 
 .chatbot__chat {
-  width: 300px;
+  min-width: 320px;
   display: flex;
-  margin: 0 10px 0 20px;
+  margin: 0px 10px 0px 20px;
   gap: 15px;
 }
 
@@ -75,6 +76,7 @@ body {
 }
 
 .chatbot__dialog {
+  width: 260px;
   word-wrap: break-word;
   color: #fff;
   background: var(--primary-color);
@@ -92,7 +94,7 @@ body {
   flex-direction: column;
   align-items: end;
   gap: 15px;
-  margin: 10px 10px 5px 10px;
+  margin: 10px 5px 5px 5px;
 }
 
 .chatbot__menu span {
@@ -101,7 +103,7 @@ body {
 }
 
 .chatbot__text {
-  min-width: 300px;
+  min-width: 280px;
   word-wrap: break-word;
   color: #fff;
   background: var(--primary-color);
