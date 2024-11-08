@@ -166,7 +166,7 @@
     "id": 403,
     "type": "Text",
     "descripcion": "Las plantas tienen distintas formas de cobro, para estar seguro debe consultar por teléfono a la planta a la que va a concurrir.",
-    "idPadre": 401
+    "idPadre": 402
   },
   {
     "id": 404,

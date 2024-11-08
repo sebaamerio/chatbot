@@ -7,7 +7,7 @@ import SendIcon from "@mui/icons-material/Send";
 import { useChatbot } from "../../hook/useChatbot.js";
 import { useMenu } from "../../hook/useMenu.js";
 
-import robotImg from "../../assets/chatbotvtv.png";
+import robotImg from "../../assets/chatbotvtv.jpg";
 import "./chatbot.css";
 
 function Chatbot() {
@@ -52,9 +52,11 @@ function Chatbot() {
             {chatBot.map((item) => {
               if (item.type == "Button") {
                 return (
-                  <Button variant="outlined" disabled key={item.id}>
-                    <span>{item.descripcion}</span>
-                  </Button>
+                  <div className="chatbot__button" key={item.id}>
+                    <Button variant="outlined" disabled>
+                      <span>{item.descripcion}</span>
+                    </Button>
+                  </div>
                 );
               }
             })}
@@ -63,15 +65,16 @@ function Chatbot() {
             {menu.map((item) => {
               if (item.type == "Button") {
                 return (
-                  <Button
-                    key={item.id}
-                    variant="outlined"
-                    onClick={() => {
-                      handler(item);
-                    }}
-                  >
-                    <span>{item.descripcion}</span>
-                  </Button>
+                  <div className="chatbot__button" key={item.id}>
+                    <Button
+                      variant="outlined"
+                      onClick={() => {
+                        handler(item);
+                      }}
+                    >
+                      <span>{item.descripcion}</span>
+                    </Button>
+                  </div>
                 );
               } else {
                 return (
@@ -89,16 +92,16 @@ function Chatbot() {
             })}
           </li>
           {chatBot.length > 0 ? (
-            <div className="chatbot__chatonline">
-              <li className="chatbot__menu">
+            <li className="chatbot__menu">
+              <div className="chatbot__inicio">
                 <Button variant="outlined" onClick={handlerInicio}>
                   <span> Inicio</span>
                 </Button>
                 <Button variant="outlined" onClick={handlerChatOnline}>
                   <span> Chat Online</span>
                 </Button>
-              </li>
-            </div>
+              </div>
+            </li>
           ) : (
             <span></span>
           )}
