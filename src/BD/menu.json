@@ -1,146 +1,417 @@
 [
   {
-    "id": 1,
+    "id": 100,
     "type": "Button",
     "descripcion": "Portal VTV",
     "idPadre": 0
   },
   {
-    "id": 2,
-    "type": "Button",
-    "descripcion": "Crear una cuenta",
-    "idPadre": 1
-  },
-  {
-    "id": 3,
+    "id": 101,
     "type": "Text",
-    "descripcion": "Para crear una cuenta en el portal de VTV, siga los pasos a continuación:<br> Registro de usuario: <br> 1-Acceda al portal en  <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a>.<br> 2-Desplácese hacia el final de la página y haga clic en la opción CREAR MI CUENTA. <br>3-Complete los datos solicitados. <br>4-Haga clic en REGISTRAR <BR> Tras esto, recibirá un email para validar el usuario (este email podría llegar a la carpeta de spam o correo no deseado; si es así, muévalo a la bandeja de entrada). <BR> Ingreso al portal:<BR>Una vez validada la cuenta, inicie sesión en el portal con su usuario y contraseña.<BR>En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para acceder al menú principal.<BR>Una vez dentro de la cuenta deberá, desde la sección MIS VEHÍCULOS, registrar su vehículo",
-    "idPadre": 2
+    "descripcion": "¿Qué querías saber sobre el portal?",
+    "idPadre": 100
   },
+
   {
-    "id": 4,
+    "id": 102,
     "type": "Button",
-    "descripcion": "Olvidé mi contraseña",
-    "idPadre": 1
+    "descripcion": "¿Cómo crear una cuenta?",
+    "idPadre": 100
   },
   {
-    "id": 5,
+    "id": 103,
     "type": "Text",
-    "descripcion": "Si olvidó su contraseña, siga estos pasos para restablecerla:<BR>1- Acceda al portal en  <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a>.<BR>2-Justo debajo del campo para ingresar el usuario, haga clic en la opción OLVIDASTE TU CONTRASEÑA.<BR>3- Recibirá un correo electrónico con las instrucciones para restablecer su contraseña. Siga los pasos indicados en el email.<BR>Requisitos para la nueva contraseña:<BR>- La contraseña debe tener entre 6 y 12 caracteres.<BR>- Debe incluir al menos una letra mayúscula y un número.<BR>Consejo:<BR>Al escribir su nueva contraseña, haga clic en el ícono del \"ojo\", que aparece en el lado derecho del campo de contraseña. Esto le permitirá visualizar lo que escribe, evitando errores de tipeo o la posibilidad de que el campo se autocomplete con una contraseña guardada por error.",
-    "idPadre": 4
+    "descripcion": "Para crear una cuenta en el portal de VTV, siga los pasos a continuación:<br><br>Registro de usuario:<br><br>1- Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal VTV</a>.<br>2-Desplácese hacia el final de la página y haga clic en la opción CREAR MI CUENTA.<br>3-Complete los datos solicitados.<br>4-Haga clic en REGISTRAR.<br><br>Tras esto, recibirá un email para validar el usuario (este email podría llegar a la carpeta de spam o correo no deseado; si es así, muévalo a la bandeja de entrada). <br><br>Ingreso al portal: <br><br>Una vez validada la cuenta, inicie sesión en el portal con su usuario y contraseña.<br>En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para acceder al menú principal.<br>",
+    "idPadre": 102
   },
   {
-    "id": 6,
+    "id": 104,
+    "type": "Button",
+    "descripcion": "¿Cómo recupero mi contraseña?",
+    "idPadre": 100
+  },
+  {
+    "id": 105,
+    "type": "Text",
+    "descripcion": "Si olvidó su contraseña, siga estos pasos para restablecerla: <br><br>Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal VTV</a><br><br>* Justo debajo del campo para ingresar el usuario, haga clic en la opción OLVIDASTE TU CONTRASEÑA.<br>*Recibirá un correo electrónico con las instrucciones para restablecer su contraseña. Siga los pasos indicados en el email. <br><br>Requisitos para la nueva contraseña:<br><br>*La contraseña debe tener entre 6 y 12 caracteres.<br>*Debe incluir al menos una letra mayúscula y un número.<br><br>Consejo:<br><br>Al escribir su nueva contraseña, haga clic en el ícono del \"ojo\", que aparece en el lado derecho del campo de contraseña. Esto le permitirá visualizar lo que escribe, evitando errores de tipeo o la posibilidad de que el campo se autocomplete con una contraseña guardada por error.",
+    "idPadre": 104
+  },
+  {
+    "id": 200,
     "type": "Button",
     "descripcion": "Turnos",
     "idPadre": 0
   },
   {
-    "id": 7,
-    "type": "Button",
-    "descripcion": "Solicitar",
-    "idPadre": 6
-  },
-  {
-    "id": 8,
+    "id": 201,
     "type": "Text",
-    "descripcion": "Para solicitar un turno de la VTV, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2-En la sección MIS VEHÍCULOS, ubique el vehículo correspondiente y haga clic en SOLICITAR TURNO junto a la patente.<BR> -Nota: Si no le aparece el botón \"Solicitar Turno\", esto puede indicar que el vehículo ya tiene un turno asignado desde otra cuenta. En ese caso, por favor comuníquese a info@vtv.gba.gob.ar para que podamos verificarlo.<BR>3- Seleccione una planta y una fecha en el calendario. Las fechas disponibles aparecerán en color celeste o verde; las fechas en color blanco indican falta de disponibilidad o que la planta está inhabilitada.<BR>4-Tras elegir la fecha y el horario, confirme el turno. Recibirá el comprobante de su turno en su correo electrónico.Nota adicional: Si no visualiza el vehículo para el cual desea solicitar el turno, deberá cargarlo en la sección MIS VEHÍCULOS.",
-    "idPadre": 7
+    "descripcion": "¿Qué necesitas?",
+    "idPadre": 200
   },
   {
-    "id": 9,
+    "id": 202,
     "type": "Button",
-    "descripcion": "Anular",
-    "idPadre": 6
+    "descripcion": "Solicitar Turno",
+    "idPadre": 200
   },
   {
-    "id": 10,
+    "id": 203,
     "type": "Text",
-    "descripcion": "Para anular un turno, siga estos pasos: <BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.<BR>4- En el margen derecho, haga clic en ANULAR para cancelar el turno.<BR>Nota: Si usa un celular, deslice la barra gris debajo del vehículo hacia la derecha hasta encontrar el botón ANULAR.",
-    "idPadre": 9
+    "descripcion": "Para solicitar un turno de la VTV, siga estos pasos:<br><br>1-Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\" target=\"_blank\">Portal VTV</a> con su usuario y contraseña.<br><br>2-En la sección MIS VEHÍCULOS, ubique el vehículo correspondiente y haga clic en SOLICITAR TURNO junto a la patente.<br><br>Nota: Si no le aparece el botón \"Solicitar Turno\", esto puede indicar que el vehículo ya tiene un turno asignado desde otra cuenta. En ese caso, por favor comuníquese a <a href=\"mailto:info@vtv.gba.gob.ar\">info@vtv</a> para que podamos verificarlo. <br><br>3-Seleccione una planta y una fecha en el calendario.<br>Las fechas disponibles aparecerán en color celeste o verde; las fechas en color blanco indican falta de disponibilidad o que la planta está inhabilitada. <br><br>4-Tras elegir la fecha y el horario, confirme el turno.<br><br>Recibirá el comprobante de su turno en su correo electrónico. <br><br>Nota adicional: Si no visualiza el vehículo para el cual desea solicitar el turno, deberá cargarlo en la sección MIS VEHÍCULOS. <br>",
+    "idPadre": 202
   },
   {
-    "id": 11,
+    "id": 204,
     "type": "Button",
-    "descripcion": "Consultar",
-    "idPadre": 6
+    "descripcion": "Anular o Reprogramar",
+    "idPadre": 200
   },
   {
-    "id": 12,
+    "id": 205,
     "type": "Text",
-    "descripcion": "Para consultar sus turnos, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.",
-    "idPadre": 11
+    "descripcion": "Para anular o reprogramar  un turno, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.<BR>4- En el margen derecho, haga clic en ANULAR o REPROGRAMAR el turno.<BR>Nota: Si usa un celular, deslice la barra gris debajo del vehículo hacia la derecha hasta encontrar dicho botón.<BR> Una vez anulado el turno vigente, puede elegir otro.<BR>También cuenta con la opción DESCARGAR COMPROBANTE, para visualizar los datos de dicho turno.",
+    "idPadre": 204
   },
   {
-    "id": 13,
+    "id": 206,
+    "type": "Button",
+    "descripcion": "Consultar Turno",
+    "idPadre": 200
+  },
+  {
+    "id": 207,
+    "type": "Text",
+    "descripcion": "Para consultar sus turnos, siga estos pasos: <br><br>1-Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\" target=\"_blank\">Portal VTV</a> con su usuario y contraseña. <br><br>2-En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú. <br><br>3-Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.",
+    "idPadre": 206
+  },
+  {
+    "id": 208,
+    "type": "Button",
+    "descripcion": "Me ausenté. ¿Cómo debo proceder?",
+    "idPadre": 200
+  },
+  {
+    "id": 209,
+    "type": "Text",
+    "descripcion": "Si no se presenta el día de su verificación, el sistema lo inhabilitará para reservar un nuevo turno durante 72 horas. <br><br>Pasadas las 72 horas, si aún no puede reservar, le solicitamos que se comunique con nuestra mesa de ayuda a <a href=\"mailto:info@vtv.gba.gob.ar\">info@vtv</a>, para reportar el error.",
+    "idPadre": 208
+  },
+  {
+    "id": 300,
     "type": "Button",
     "descripcion": "Mis Vehículos",
     "idPadre": 0
   },
   {
-    "id": 14,
+    "id": 301,
     "type": "Text",
-    "descripcion": "En la sección MIS VEHÍCULOS deberá cargar aquellos vehículos para los que desee realizar la verificación técnica vehicular.<BR>El sistema clasificará los vehículos según usted sea o no el titular de los mismos.<BR>Una vez que los vehículos estén cargados en esta sección, podrá gestionar los turnos correspondientes.",
-    "idPadre": 13
+    "descripcion": "¿Tenés dudas sobre algunos de estos temas?",
+    "idPadre": 300
   },
   {
-    "id": 15,
+    "id": 302,
     "type": "Button",
-    "descripcion": "Cargar Vehículo",
-    "idPadre": 13
+    "descripcion": "¿Qué son Mis Vehículos?",
+    "idPadre": 300
   },
   {
-    "id": 16,
+    "id": 303,
+    "type": "Text",
+    "descripcion": "En la sección MIS VEHÍCULOS deberá cargar aquellos vehículos para los que desee realizar la verificación técnica vehicular. <br> <br>El sistema clasificará los vehículos según usted sea o no el titular de los mismos. <br> <br>Una vez que los vehículos estén cargados en esta sección, podrá gestionar los turnos correspondientes.",
+    "idPadre": 302
+  },
+  {
+    "id": 304,
+    "type": "Button",
+    "descripcion": "¿Cómo cargar un vehículo?",
+    "idPadre": 300
+  },
+  {
+    "id": 305,
     "type": "Text",
     "descripcion": "Para cargar sus vehículos, dentro del portal, siga estos pasos:<BR>1- Diríjase al margen superior izquierdo y haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>2- Seleccione la opción MIS VEHÍCULOS.<BR>3- Haga clic en AGREGAR y complete los datos solicitados de su vehículo.<BR>Nota: Recuerde ingresar el número de patente sin espacios.<BR>Una vez que haya ingresado toda la información, podrá solicitar un turno para su vehículo.",
-    "idPadre": 15
+    "idPadre": 304
   },
   {
-    "id": 17,
+    "id": 306,
     "type": "Button",
-    "descripcion": "Eliminar vehículo",
-    "idPadre": 13
+    "descripcion": "¿Cómo eliminar un vehículo?",
+    "idPadre": 300
   },
   {
-    "id": 18,
+    "id": 307,
     "type": "Text",
     "descripcion": "Para eliminar un vehículo del portal, siga estos pasos:<BR>1- Acceda a la sección MIS VEHÍCULOS.<BR>2- En el lado derecho de la pantalla, donde se muestran los datos del vehículo, encontrará un ícono de un cesto de basura.<BR>3- Haga clic en este ícono para eliminar el vehículo.<BR>Nota: Si tiene asignado un vehículo que no le pertenece, también puede eliminarlo desde esta sección.",
-    "idPadre": 17
+    "idPadre": 306
   },
   {
-    "id": 19,
+    "id": 400,
     "type": "Button",
-    "descripcion": "Información y valores",
+    "descripcion": "Valores de la VTV",
     "idPadre": 0
   },
   {
-    "id": 20,
+    "id": 401,
     "type": "Text",
-    "descripcion": "Puede consultar los valores actualizados de la VTV en el siguiente enlace   <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_costos.php\"> Costos vtv</a>",
-    "idPadre": 19
+    "descripcion": "Para saber los costos de la vtv, puede acceder a <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_costos.php\">Costos vtv </a> <BR> ¿Tiene dudas sobre alguno de estos otros temas?",
+    "idPadre": 400
   },
   {
-    "id": 21,
+    "id": 402,
     "type": "Button",
-    "descripcion": "Exenciones CUD",
-    "idPadre": 19
+    "descripcion": "¿Cómo abonar?",
+    "idPadre": 400
   },
   {
-    "id": 22,
+    "id": 403,
     "type": "Text",
-    "descripcion": "Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación:<BR>1- Exención de pago de ARBA.<BR>2- Símbolo de uso correspondiente.<BR>3- Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<BR>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco.<BR>La exención se otorga para un (1) solo vehículo por año.<BR>Para obtener más información, puede consultar este enlace o comunicarse a través del correo: usuariosvtv@transporte.gba.gob.ar.",
-    "idPadre": 21
+    "descripcion": "Las plantas tienen distintas formas de cobro, para estar seguro debe consultar por teléfono a la planta a la que va a concurrir.",
+    "idPadre": 401
   },
   {
-    "id": 23,
+    "id": 404,
     "type": "Button",
-    "descripcion": "Bonificaciones Jubilados/ Pensionados",
-    "idPadre": 19
+    "descripcion": "Exenciones - CUD",
+    "idPadre": 400
   },
   {
-    "id": 22,
+    "id": 405,
     "type": "Text",
-    "descripcion": "Los jubilados y pensionados pueden acceder a una bonificación especial del 50% en el servicio de verificación técnica, siempre que cumplan con los siguientes requisitos:<BR>- Ingresos: No deben superar el equivalente a dos haberes mínimos jubilatorios. Deberán presentar el último recibo de haberes como comprobante.<BR>- Titularidad: Deben ser titulares del vehículo.<BR>- VTV Vigente: Es necesario tener la VTV vigente en la Provincia de Buenos Aires.<BR>Este beneficio se otorgará una vez al año para un solo vehículo por persona que cumpla con los requisitos.",
-    "idPadre": 23
+    "descripcion": "Exención de pago para personas con CUD<br><br>Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación: <br>1-Exención de pago de ARBA. <br>2-Símbolo de uso correspondiente. <br>3-Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<br><br>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco. <br><br>La exención se otorga para un (1) solo vehículo por año. <br><br>Para obtener más información, puede consultar <a href=\"https://www.vtv.minfra.gba.gob.ar\" target=\"_blank\">este enlace</a> o comunicarse a través del correo: <a href=\"mailto:usuariosvtv@transporte.gba.gob.ar\">usuariosvtv</a>.",
+    "idPadre": 404
+  },
+  {
+    "id": 406,
+    "type": "Button",
+    "descripcion": "Bonificaciones Jubilados/Pensionados",
+    "idPadre": 400
+  },
+  {
+    "id": 407,
+    "type": "Text",
+    "descripcion": "Los jubilados y pensionados pueden acceder a una bonificación especial del 50% en el servicio de verificación técnica, siempre que cumplan con los siguientes requisitos: <br><br>1-Ingresos: No deben superar el equivalente a dos haberes mínimos jubilatorios. Deberán presentar el último recibo de haberes como comprobante. <br>2-Titularidad: Deben ser titulares del vehículo. <br>3-VTV Vigente: Es necesario tener la VTV vigente en la Provincia de Buenos Aires. <br><br>Este beneficio se otorgará una vez al año para un solo vehículo por persona que cumpla con los requisitos.",
+    "idPadre": 406
+  },
+  {
+    "id": 500,
+    "type": "Button",
+    "descripcion": "Información",
+    "idPadre": 0
+  },
+  {
+    "id": 501,
+    "type": "Text",
+    "descripcion": "¿Quiere saber más sobre alguno de estos temas?",
+    "idPadre": 500
+  },
+  {
+    "id": 502,
+    "type": "Button",
+    "descripcion": "Plantas",
+    "idPadre": 500
+  },
+  {
+    "id": 503,
+    "type": "Button",
+    "descripcion": "¿En cuál verificar?",
+    "idPadre": 502
+  },
+  {
+    "id": 504,
+    "type": "Text",
+    "descripcion": "Puede concurrir a una planta distinta a la que correspondería al lugar de radicación del vehículo.<br><br>La única condición es que, si por algún defecto el vehículo no aprobara la inspección, deberá ser re inspeccionado en la misma planta.",
+    "idPadre": 503
+  },
+  {
+    "id": 505,
+    "type": "Button",
+    "descripcion": "¿El costo varía entre plantas?",
+    "idPadre": 502
+  },
+  {
+    "id": 506,
+    "type": "Text",
+    "descripcion": "El costo de la VTV es el mismo en todas las plantas de la Provincia de Buenos Aires.",
+    "idPadre": 505
+  },
+  {
+    "id": 507,
+    "type": "Button",
+    "descripcion": "¿Cuáles son los horarios?",
+    "idPadre": 502
+  },
+  {
+    "id": 508,
+    "type": "Text",
+    "descripcion": "Las plantas tienen distintos horarios.<br><br>Por favor, envíe un e-mail a <a href=\"mailto:info@vtv.gba.ar\">info@vtv.gba.ar</a>, indicando la planta para que le puedan informar.",
+    "idPadre": 507
+  },
+  {
+    "id": 509,
+    "type": "Button",
+    "descripcion": "¿Todas hacen la misma verificación?",
+    "idPadre": 502
+  },
+  {
+    "id": 510,
+    "type": "Text",
+    "descripcion": "Si, los criterios de inspección son comunes y las estaciones de VTV son controladas para comprobar que se aplican adecuadamente.",
+    "idPadre": 509
+  },
+  {
+    "id": 511,
+    "type": "Button",
+    "descripcion": "¿Pueden efectuar reparaciones?",
+    "idPadre": 510
+  },
+  {
+    "id": 512,
+    "type": "Text",
+    "descripcion": "No, el concesionario se encuentra inhabilitado para realizar reparaciones en un vehículo sometido a verificación.",
+    "idPadre": 511
+  },
+  {
+    "id": 513,
+    "type": "Button",
+    "descripcion": "Plantas en CABA",
+    "idPadre": 502
+  },
+  {
+    "id": 514,
+    "type": "Text",
+    "descripcion": "Si desea reservar un turno para las plantas de Barracas, Paternal, Pompeya o Villa Ortúzar, puede solicitarlo ingresando a <a href=\"https://www.suvtv.com.ar/turnos/\" target=\"_blank\">Turnos</a>",
+    "idPadre": 513
+  },
+  {
+    "id": 520,
+    "type": "Button",
+    "descripcion": "Sobre la Verificación",
+    "idPadre": 500
+  },
+  {
+    "id": 521,
+    "type": "Button",
+    "descripcion": "¿El vehículo sufre algún deterioro al hacer la Vtv?",
+    "idPadre": 520
+  },
+  {
+    "id": 522,
+    "type": "Text",
+    "descripcion": "No. Está comprobado que los procedimientos efectuados para verificar los vehículos no afectan en absoluto al mismo.",
+    "idPadre": 521
+  },
+  {
+    "id": 523,
+    "type": "Button",
+    "descripcion": "¿Puede verificar una persona que no sea el titular?",
+    "idPadre": 520
+  },
+  {
+    "id": 524,
+    "type": "Text",
+    "descripcion": "El trámite lo puede realizar cualquier persona presentando la documentación requerida del vehículo y documento personal.",
+    "idPadre": 523
+  },
+  {
+    "id": 525,
+    "type": "Button",
+    "descripcion": "¿Cada cuánto hay que verificar?",
+    "idPadre": 520
+  },
+  {
+    "id": 526,
+    "type": "Text",
+    "descripcion": "Para conocer la frecuencia de verificación según el tipo de vehículo, puede consultar esta página del <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_quienes.php\" target=\"_blank\">Ministerio de Transporte</a><br><br>También puede ingresar sus datos en este enlace para obtener información específica sobre los vencimientos: <a href=\"https://www.vtv.minfra.gba.gob.ar/vencimientos.php\" target=\"_blank\">Vencimientos</a>",
+    "idPadre": 525
+  },
+  {
+    "id": 530,
+    "type": "Button",
+    "descripcion": "¿Qué pasa si …",
+    "idPadre": 500
+  },
+  {
+    "id": 531,
+    "type": "Button",
+    "descripcion": "... no hago la V.T.V.?",
+    "idPadre": 530
+  },
+  {
+    "id": 532,
+    "type": "Text",
+    "descripcion": "Decreto 532/09 (Ver Normativa)<br><br>Por circular sin haber realizado la revisión técnica periódica obligatoria, será sancionado con multa de 300 U.F. hasta 1.000 U.F.<br><br>Deberá entenderse por nafta especial la de mayor octanaje para vehículos particulares que fija el Automóvil Club Argentino, sede ciudad de La Plata. La determinación del valor de la U.F. será publicada en la página web del RUIT y se actualizará bimestralmente. <br><br>Por lo tanto, habrá que multiplicar el valor del litro de nafta por 300 para establecer el monto de la multa mínima.",
+    "idPadre": 531
+  },
+  {
+    "id": 533,
+    "type": "Button",
+    "descripcion": "... el vehículo no está en uso? ¿Se debe verificar?",
+    "idPadre": 530
+  },
+  {
+    "id": 534,
+    "type": "Text",
+    "descripcion": "No es necesario, la obligatoriedad de la V.T.V. es para circular en la vía pública.",
+    "idPadre": 533
+  },
+  {
+    "id": 535,
+    "type": "Button",
+    "descripcion": "… al romperse el parabrisas se dañe o pierda la oblea?",
+    "idPadre": 530
+  },
+  {
+    "id": 536,
+    "type": "Text",
+    "descripcion": "Concurra a la Planta donde realizó la VTV con la oblea anterior, para que le coloquen una nueva en forma gratuita.<br><br>*En el caso de que posea la pieza de vidrio con la oblea pegada, no intente despegarla, ya que corre el riesgo de destruirla. Acérquese con la pieza.<br><br>* Si no tiene la oblea en su poder, deberá realizar la denuncia o exposición policial por la pérdida y presentarla en la Planta correspondiente.",
+    "idPadre": 535
+  },
+  {
+    "id": 537,
+    "type": "Button",
+    "descripcion": "… lo rechazan o condicionan?",
+    "idPadre": 530
+  },
+  {
+    "id": 538,
+    "type": "Text",
+    "descripcion": "Si al verificar, el vehículo presenta algún defecto leve o grave se le dará un plazo de 60 días corridos para solucionar el problema.<br><br>Si vuelve dentro de ese plazo, no tiene que volver a abonar.<br><br> En caso de excederlo, deberá abonar la tarifa completa y hacer la verificación nuevamente.",
+    "idPadre": 537
+  },
+  {
+    "id": 539,
+    "type": "Button",
+    "descripcion": "… el vehículo no está radicado en provincia de Bs As?",
+    "idPadre": 530
+  },
+  {
+    "id": 540,
+    "type": "Text",
+    "descripcion": "Los vehículos que no estén radicados en la Provincia de Buenos Aires pueden realizar la VTV en las plantas de la provincia solo con carácter voluntario. Esta verificación no reemplaza la que pudiera ser exigible en la jurisdicción donde esté registrado el vehículo.",
+    "idPadre": 539
+  },
+  {
+    "id": 541,
+    "type": "Button",
+    "descripcion": "… debo re-verificar?",
+    "idPadre": 530
+  },
+  {
+    "id": 542,
+    "type": "Text",
+    "descripcion": "Si se encuentra dentro del plazo de 60 días otorgado por la planta para realizar los arreglos, puede presentarse sin turno y no deberá abonar el trámite nuevamente.<br><br> Si han pasado más de 60 días, deberá solicitar un nuevo turno y abonar la verificación. <br><br>Para solicitar una extensión de plazo, deberá gestionarlo directamente en la planta.",
+    "idPadre": 541
+  },
+  {
+    "id": 543,
+    "type": "Button",
+    "descripcion": "Documentación necesaria",
+    "idPadre": 500
+  },
+  {
+    "id": 544,
+    "type": "Text",
+    "descripcion": "Para realizar la verificación en planta, por favor presente la siguiente documentación:<br><br>1-Cédula Verde del vehículo. <br>2-Título de Propiedad (solo en la primera verificación). <br>3-CUIT (si corresponde).",
+    "idPadre": 543
   }
 ]

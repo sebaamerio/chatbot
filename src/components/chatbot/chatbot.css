@@ -5,9 +5,7 @@
   font-family: "Poppins, sans-serif";
   --primary-color: #3750a4;
   --second-color: #213c63;
-}
-body {
-  background: #fff; /* #f7f3f3;*/
+  --link-color: #aac7fd;
 }
 
 @font-face {
@@ -78,7 +76,7 @@ body {
 .chatbot__dialog {
   width: 260px;
   word-wrap: break-word;
-  color: #fff;
+  color: #ffffff;
   background: var(--primary-color);
   padding: 10px;
   border-radius: 10px 10px 10px 0;
@@ -86,6 +84,11 @@ body {
   -moz-border-radius: 10px 10px 10px 0;
   -ms-border-radius: 10px 10px 10px 0;
   -o-border-radius: 10px 10px 10px 0;
+  font-family: "Exo2-Regular";
+}
+
+.chatbot__dialog a {
+  color: var(--link-color);
   font-family: "Exo2-Regular";
 }
 
