@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: "Exo2-Regular"; /*Can be any text*/
-  src: url("../../public/fonts/Exo_2/static/Exo2-Regular.ttf");
+  src: url("../../../public/fonts/Exo_2/static/Exo2-Regular.ttf");
 }
 
 @font-face {
   font-family: "Exo2-SemiBold"; /*Can be any text*/
-  src: url("../../public/fonts/Exo_2/static/Exo2-SemiBold.ttf");
+  src: url("../../../public/fonts/Exo_2/static/Exo2-SemiBold.ttf");
 }
 
 .chatbot {
