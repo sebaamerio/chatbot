@@ -1,9 +1,9 @@
-import Chatbot from "./components/chatbot/Chatbot.jsx";
+import Home from "./pages/Home.jsx";
 
 function App() {
   return (
     <>
-      <Chatbot />
+      <Home />
     </>
   );
 }
