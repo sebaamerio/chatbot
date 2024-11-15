@@ -1,8 +1,8 @@
 .body {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  gap: 100px;
+  align-items: normal;
+  gap: 50px;
 
   /*    display: grid;
   grid-template-columns: repeat(auto-fit, minmax(810px, 1fr));*/
@@ -62,6 +62,7 @@
 .aside {
   width: 300px;
   margin-left: 20px;
+  margin-top: 30px;
 }
 
 .aside__title {
@@ -71,17 +72,16 @@
   font-family: "EncodeSansRegular", sans-serif;
   width: auto;
   text-transform: uppercase;
-  margin: 0;
   border-bottom: 2px dotted #959595;
 }
 .aside__subtitle {
   font-family: "EncodeSansRegular", sans-serif;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 
 .aside__nav {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .aside__menu {
@@ -97,89 +97,12 @@
   width: 100%;
 }
 
-/* Menu botones*/
-.button {
-  width: 200px;
-  height: 50px;
-  background-color: white;
-  color: black;
-  border: 2px solid #10aec3;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  transition-duration: 0.6s;
-  cursor: pointer;
+.aside__text a {
   font-family: "EncodeSansRegular", sans-serif;
-  font-size: 18px;
+  width: 100%;
+  text-decoration: none;
+  color: #444;
 }
-
-.button:hover {
-  background-color: #008cba;
-  color: white;
-}
-
-/* Button Chatbot*/
-.chat-btn {
-  box-sizing: border-box;
-
-  background-color: #10aec3;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
-  width: 80px;
-  height: 80px;
-  border-radius: 100px 100px 0 100px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  transition: all ease-in-out 0.3s;
-  cursor: pointer;
-  will-change: transform;
-}
-.chat-btn > div {
-  position: relative;
-  width: 80px;
-  height: 80px;
-  padding: auto;
-}
-
-.chat-btn div div {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  border-radius: 100px;
-  transition: all ease-in-out 0.3s;
-  position: absolute;
-}
-
-.chat-btn .left-eye {
-  top: 50%;
-  left: 15px;
-  transform: translateY(-50%);
-}
-
-.chat-btn .right-eye {
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-}
-
-.chat-btn .mouth {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotateZ(0.001deg);
-}
-
-.chat-btn:hover {
-  transform: translateY(-15px);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-.chat-btn:hover .left-eye {
-  top: 35%;
-  left: 20px;
-}
-
-.chat-btn:hover .right-eye {
-  top: 35%;
-  right: 20px;
+.aside__text a:hover {
+  text-decoration: underline;
 }

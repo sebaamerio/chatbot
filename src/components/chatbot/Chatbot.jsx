@@ -1,8 +1,9 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
 import SendIcon from "@mui/icons-material/Send";
+import CancelIcon from "@mui/icons-material/Cancel";
 
 import { useChatbot } from "../../hook/useChatbot.js";
 import { useMenu } from "../../hook/useMenu.js";
@@ -13,6 +14,8 @@ import "./chatbot.css";
 function Chatbot() {
   const { chatBot, addChat, clearChat } = useChatbot();
   const { menu, iniciarMenu, addMenu, clearMenu } = useMenu();
+
+  const [showBot, setShowBot] = useState(true);
 
   useEffect(() => {
     iniciarMenu();
@@ -33,11 +36,16 @@ function Chatbot() {
     window.location.href = "https://livechat.soportevtv.com.ar/livechat";
   };
 
+  const handlerBot = () => {
+    setShowBot(!showBot);
+  };
+
   return (
     <>
-      <div className="chatbot">
+      <div className="chatbot" hidden={showBot}>
         <header className="chatbot__header">
-          <span>Bienvenido al canal de atención virtual.</span>
+          <span>Bienvenido al canal de atención virtual</span>
+          <CancelIcon className="chatbot__cancel" onClick={handlerBot} />
         </header>
         <ul className="chatbot__chatbox">
           <li className="chatbot__menu">
@@ -115,6 +123,19 @@ function Chatbot() {
             <SendIcon />
           </span>
         </div>
+      </div>
+
+      <div className="chat_button">
+        <div id="chat-btn" className="chat-btn" onClick={handlerBot}>
+          <div>
+            <div className="left-eye"></div>
+            <div className="mouth"></div>
+            <div className="right-eye"></div>
+          </div>
+        </div>
+        <span className="chat__text" onClick={handlerBot}>
+          Asistente virtual
+        </span>
       </div>
     </>
   );

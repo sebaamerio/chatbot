@@ -1,9 +1,14 @@
 import Chatbot from "../components/chatbot/Chatbot.jsx";
+import HomeCard from "../components/card/CardHome.jsx";
 import MainLayout from "../layout/MainLayout.jsx";
 import "./Home.css";
 import iconPhone from "../assets/icon-telefono.png";
 import iconReloj from "../assets/icon-reloj.png";
 import iconCarta from "../assets/icon-carta.png";
+import iconInterno from "../assets/icon-interno.png";
+
+import imgTurnos from "../assets/turnos.jpg";
+import imgPlantas from "../assets/plantas.jpg";
 
 export default function Home() {
   return (
@@ -22,27 +27,19 @@ export default function Home() {
             </div>
             <hr className="main__separatorMenu" />
             <nav className="main__nav">
-              <a
-                className="button"
-                href="https://portal.vtv.gba.gob.ar/"
-                target="_blank"
-              >
-                Turnos
-              </a>
-              <a
-                className="button"
-                href="https://geoplantas.com.ar"
-                target="_blank"
-              >
-                Plantas
-              </a>
-              <a
-                className="button"
-                href="https://livechat.soportevtv.com.ar/livechat"
-                target="_blank"
-              >
-                Chat Online
-              </a>
+              <HomeCard
+                title="Turnos"
+                image={imgTurnos}
+                descripcion="Ingresá a nuestra sección para solicitar o modificar su  turno de manera rápida y sencilla."
+                link="https://portal.vtv.gba.gob.ar/"
+              />
+
+              <HomeCard
+                title="Plantas"
+                image={imgPlantas}
+                descripcion="Ubicaciones para realizan las inspecciones técnicas de los vehículos. "
+                link="https://geoplantas.com.ar:3000/"
+              />
             </nav>
           </main>
           <aside className="aside">
@@ -71,14 +68,20 @@ export default function Home() {
                 </span>
               </div>
 
-              <div id="chat-btn" className="chat-btn">
-                <script src="/js/chat_btn.js"></script>
-                <div>
-                  <div className="left-eye"></div>
-                  <div className="mouth"></div>
-                  <div className="right-eye"></div>
-                </div>
+              <div className="aside__menu">
+                <img src={iconInterno} alt="Email" />
+                <span
+                  className="aside__text"
+                  onClick={window.open(
+                    "https://livechat.soportevtv.com.ar/",
+                    "_blank"
+                  )}
+                >
+                  Uso interno
+                </span>
               </div>
+
+              <Chatbot />
             </nav>
           </aside>
         </body>

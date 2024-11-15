@@ -20,7 +20,7 @@
 
 .chatbot {
   width: 360px;
-  margin: 5px;
+  margin: 15px;
   background: #f8f6f6;
   border-radius: 15px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5),
@@ -30,6 +30,10 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   font-family: "Exo2-Regular";
+  position: fixed;
+  top: -5px;
+  right: 420px;
+  z-index: 9;
 }
 
 .chatbot__header {
@@ -43,6 +47,15 @@
   justify-content: center;
   gap: 20px;
   font-family: "Exo2-Regular";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatbot__cancel {
+  float: right;
+  margin-right: 0px;
+  cursor: pointer;
 }
 
 .chatbot__header span {
@@ -65,13 +78,6 @@
 
 .chatbot__robot {
   align-self: flex-end;
-}
-
-.avatar {
-  vertical-align: middle;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
 
 .chatbot__dialog {
@@ -165,4 +171,75 @@
 
 .chatbot__input textarea:valid ~ span {
   visibility: visible;
+}
+
+/* Button Chatbot*/
+.chat_button {
+  margin: 10px 0;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.chat-btn {
+  margin-top: 5px;
+  box-sizing: border-box;
+  background-color: #10aec3;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.24);
+  width: 40px;
+  height: 40px;
+  border-radius: 100px 100px 0 100px;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  will-change: transform;
+}
+.chat-btn > div {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  padding: auto;
+}
+
+.chat-btn div div {
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 100px;
+  transition: all ease-in-out 0.3s;
+  position: absolute;
+}
+
+.chat-btn .left-eye {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.chat-btn .right-eye {
+  top: 48%;
+  right: 15px;
+  transform: translateY(-50%);
+}
+
+.chat-btn .mouth {
+  top: 50%;
+  left: 44.6%;
+  transform: translate(-50%, -50%) rotateZ(0.001deg);
+}
+
+.chat__text {
+  font-family: "EncodeSansRegular", sans-serif;
+  width: 100%;
+  cursor: pointer;
+}
+
+.chat-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
 }
