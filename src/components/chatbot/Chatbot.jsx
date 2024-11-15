@@ -45,7 +45,10 @@ function Chatbot() {
               <span className="chatbot__robot">
                 <Avatar alt="Robot" src={robotImg} />
               </span>
-              <p className="chatbot__dialog">Hola ¿ En que te puedo ayudar ?</p>
+              <p className="chatbot__dialog">
+                Hola, soy el asistente virtual de la Vtv.<br></br> ¿Puedo
+                ayudarte con alguno de estos temas?
+              </p>
             </div>
           </li>
           <li className="chatbot__menu">

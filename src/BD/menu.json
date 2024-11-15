@@ -21,7 +21,7 @@
   {
     "id": 103,
     "type": "Text",
-    "descripcion": "Para crear una cuenta en el portal de VTV, siga los pasos a continuación:<br><br>Registro de usuario:<br><br>1- Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal VTV</a>.<br>2-Desplácese hacia el final de la página y haga clic en la opción CREAR MI CUENTA.<br>3-Complete los datos solicitados.<br>4-Haga clic en REGISTRAR.<br><br>Tras esto, recibirá un email para validar el usuario (este email podría llegar a la carpeta de spam o correo no deseado; si es así, muévalo a la bandeja de entrada). <br><br>Ingreso al portal: <br><br>Una vez validada la cuenta, inicie sesión en el portal con su usuario y contraseña.<br>En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para acceder al menú principal.<br>",
+    "descripcion": "Para crear una cuenta en el portal de VTV, siga los pasos que se mencionan a continuación:<br><br>Registro de usuario:<br><br>1- Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal vtv</a>.<br>2-Desplácese hacia el final de la página y haga clic en la opción CREAR MI CUENTA.<br>3-Complete los datos solicitados.<br>4-Haga clic en REGISTRAR.<br><br>Tras esto, recibirá un email para validar el usuario (este email podría llegar a la carpeta de spam o correo no deseado; si es así, muévalo a la bandeja de entrada). <br><br>Ingreso al portal: <br><br>Una vez validada la cuenta, inicie sesión en el portal con su usuario y contraseña.<br>En la esquina superior izquierda, haga clic en el ícono de las 'tres líneas' para acceder al menú principal.<br>",
     "idPadre": 102
   },
   {
@@ -33,15 +33,10 @@
   {
     "id": 105,
     "type": "Text",
-    "descripcion": "Si olvidó su contraseña, siga estos pasos para restablecerla: <br><br>Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal VTV</a><br><br>* Justo debajo del campo para ingresar el usuario, haga clic en la opción OLVIDASTE TU CONTRASEÑA.<br>*Recibirá un correo electrónico con las instrucciones para restablecer su contraseña. Siga los pasos indicados en el email. <br><br>Requisitos para la nueva contraseña:<br><br>*La contraseña debe tener entre 6 y 12 caracteres.<br>*Debe incluir al menos una letra mayúscula y un número.<br><br>Consejo:<br><br>Al escribir su nueva contraseña, haga clic en el ícono del \"ojo\", que aparece en el lado derecho del campo de contraseña. Esto le permitirá visualizar lo que escribe, evitando errores de tipeo o la posibilidad de que el campo se autocomplete con una contraseña guardada por error.",
+    "descripcion": "Si olvidó su contraseña, siga estos pasos para restablecerla: <br><br>Acceda al portal en <a href=\"https://portal.vtv.gba.gob.ar/\" target=\"_blank\">Portal vtv</a><br><br>* Justo debajo del campo para ingresar el usuario, haga clic en la opción ¿OLVIDASTE TU CONTRASEÑA?.<br>*Recibirá un correo electrónico con las instrucciones para restablecer su contraseña. Siga los pasos indicados en el email. <br><br>Requisitos para la nueva contraseña:<br><br>*La contraseña debe tener entre 6 y 12 caracteres.<br>*Debe incluir al menos una letra mayúscula y un número.<br><br>Consejo:<br><br>Al escribir su nueva contraseña, haga clic en el ícono del 'ojo', que aparece en el lado derecho del campo de contraseña. Esto le permitirá visualizar lo que escribe, evitando errores de tipeo o la posibilidad de que el campo se autocomplete con una contraseña guardada por error.<br>",
     "idPadre": 104
   },
-  {
-    "id": 200,
-    "type": "Button",
-    "descripcion": "Turnos",
-    "idPadre": 0
-  },
+  { "id": 200, "type": "Button", "descripcion": "Turnos", "idPadre": 0 },
   {
     "id": 201,
     "type": "Text",
@@ -69,7 +64,7 @@
   {
     "id": 205,
     "type": "Text",
-    "descripcion": "Para anular o reprogramar  un turno, siga estos pasos:<BR>1- Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\"> Portal vtv</a> con su usuario y contraseña.<BR>2- En la esquina superior izquierda, haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>3- Seleccione la opción HISTORIAL, donde verá sus vehículos con los turnos asignados.<BR>4- En el margen derecho, haga clic en ANULAR o REPROGRAMAR el turno.<BR>Nota: Si usa un celular, deslice la barra gris debajo del vehículo hacia la derecha hasta encontrar dicho botón.<BR> Una vez anulado el turno vigente, puede elegir otro.<BR>También cuenta con la opción DESCARGAR COMPROBANTE, para visualizar los datos de dicho turno.",
+    "descripcion": "Para anular o reprogramar un turno, siga estos pasos: <br><br>1-Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\" target=\"_blank\">Portal VTV</a> con su usuario y contraseña. <br><br>2-En la esquina superior izquierda, haga clic en el ícono de las 'tres líneas' para abrir el menú. <br><br>3-Seleccione la opción  HISTORIAL, donde verá sus vehículos con los turnos asignados.<br><br>4-En el margen derecho, haga clic en ANULAR o REPROGRAMAR el turno. <br><br>Nota: Si usa un celular, deslice la barra gris debajo del vehículo hacia la derecha hasta encontrar dicho botón.<br><br>Una vez anulado el turno vigente, puede elegir otro. También cuenta con la opción DESCARGAR COMPROBANTE, para visualizar los datos de dicho turno.",
     "idPadre": 204
   },
   {
@@ -129,7 +124,7 @@
   {
     "id": 305,
     "type": "Text",
-    "descripcion": "Para cargar sus vehículos, dentro del portal, siga estos pasos:<BR>1- Diríjase al margen superior izquierdo y haga clic en el ícono de las \"tres líneas\" para abrir el menú.<BR>2- Seleccione la opción MIS VEHÍCULOS.<BR>3- Haga clic en AGREGAR y complete los datos solicitados de su vehículo.<BR>Nota: Recuerde ingresar el número de patente sin espacios.<BR>Una vez que haya ingresado toda la información, podrá solicitar un turno para su vehículo.",
+    "descripcion": "Para cargar sus vehículos, dentro del portal, siga estos pasos: <br><br>1-Diríjase al margen superior izquierdo y haga clic en el ícono de las 'tres líneas' para abrir el menú. <br><br>2-Seleccione la opción MIS VEHÍCULOS. <br><br>3-Haga clic en AGREGAR y complete los datos solicitados de su vehículo. <br><br>Nota: Recuerde ingresar el número de patente sin espacios. <br><br> Una vez que haya ingresado toda la información, podrá solicitar un turno para su vehículo. <br>",
     "idPadre": 304
   },
   {
@@ -141,7 +136,7 @@
   {
     "id": 307,
     "type": "Text",
-    "descripcion": "Para eliminar un vehículo del portal, siga estos pasos:<BR>1- Acceda a la sección MIS VEHÍCULOS.<BR>2- En el lado derecho de la pantalla, donde se muestran los datos del vehículo, encontrará un ícono de un cesto de basura.<BR>3- Haga clic en este ícono para eliminar el vehículo.<BR>Nota: Si tiene asignado un vehículo que no le pertenece, también puede eliminarlo desde esta sección.",
+    "descripcion": "Para eliminar un vehículo del portal, siga estos pasos: <br><br>1-Acceda a la sección MIS VEHÍCULOS. <br><br>2-En el lado derecho de la pantalla, donde se muestran los datos del vehículo, encontrará un ícono de un cesto de basura. <br><br>3-Haga clic en este ícono para eliminar el vehículo. <br><br>Nota: Si tiene asignado un vehículo que no le pertenece, también puede eliminarlo desde esta sección.",
     "idPadre": 306
   },
   {
@@ -153,7 +148,7 @@
   {
     "id": 401,
     "type": "Text",
-    "descripcion": "Para saber los costos de la vtv, puede acceder a <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_costos.php\">Costos vtv </a> <BR> ¿Tiene dudas sobre alguno de estos otros temas?",
+    "descripcion": "Para saber los costos de la vtv, puede acceder a <a href=\"https://www.vtv.minfra.gba.gob.ar/informacion_costos.php\" target=\"_blank\">Costos vtv </a> <BR> ¿Tiene dudas sobre alguno de estos otros temas?",
     "idPadre": 400
   },
   {
@@ -177,7 +172,7 @@
   {
     "id": 405,
     "type": "Text",
-    "descripcion": "Exención de pago para personas con CUD<br><br>Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación: <br>1-Exención de pago de ARBA. <br>2-Símbolo de uso correspondiente. <br>3-Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<br><br>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco. <br><br>La exención se otorga para un (1) solo vehículo por año. <br><br>Para obtener más información, puede consultar <a href=\"https://www.vtv.minfra.gba.gob.ar\" target=\"_blank\">este enlace</a> o comunicarse a través del correo: <a href=\"mailto:usuariosvtv@transporte.gba.gob.ar\">usuariosvtv</a>.",
+    "descripcion": "Exención de pago para personas con CUD<br><br>Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación: <br>1-Exención de pago de ARBA. <br>2-Símbolo de uso correspondiente. <br>3-Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<br><br>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco. <br><br>La exención se otorga para un (1) solo vehículo por año. <br><br>Para obtener más información, puede consultar <a href=\"https://www.vtv.minfra.gba.gob.ar\" target=\"_blank\">este enlace</a> o comunicarse a través del correo: <a href=\"mailto:usuariosvtv@transporte.gba.gob.ar\">usuariosvtv@transporte.gba.gob.ar</a>.",
     "idPadre": 404
   },
   {
@@ -262,7 +257,7 @@
     "id": 511,
     "type": "Button",
     "descripcion": "¿Pueden efectuar reparaciones?",
-    "idPadre": 510
+    "idPadre": 502
   },
   {
     "id": 512,
