@@ -1,33 +1,30 @@
 @font-face {
-  font-family: "EncodeSansExtraLight";
-  src: url("./fonts/Encode_Sans/static/EncodeSans-ExtraLight.ttf")
-    format("truetype");
+	font-family: "EncodeSansExtraLight";
+	src: url("./fonts/Encode_Sans/static/EncodeSans-ExtraLight.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "EncodeSansLight";
-  src: url("./fonts/Encode_Sans/static/EncodeSans-Light.ttf") format("truetype");
+	font-family: "EncodeSansLight";
+	src: url("./fonts/Encode_Sans/static/EncodeSans-Light.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "EncodeSansMedium";
-  src: url("./fonts/Encode_Sans/static/EncodeSans-Medium.ttf")
-    format("truetype");
+	font-family: "EncodeSansMedium";
+	src: url("./fonts/Encode_Sans/static/EncodeSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "EncodeSansRegular";
-  src: url("./fonts/Encode_Sans/static/EncodeSans-Regular.ttf")
-    format("truetype");
+	font-family: "EncodeSansRegular";
+	src: url("./fonts/Encode_Sans/static/EncodeSans-Regular.ttf") format("truetype");
 }
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 body {
-  margin: 0;
-  background: #fff;
-  font-family: "EncodeSansLight", sans-serif;
-  color: #444;
+	margin: 0;
+	background: #fff;
+	font-family: "EncodeSansLight", sans-serif;
+	color: #444;
 }
