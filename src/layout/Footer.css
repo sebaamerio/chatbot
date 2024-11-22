@@ -55,6 +55,11 @@ footer {
 	margin-top: 20px;
 }
 
+.aside__navlink {
+	margin-top: 20px;
+	cursor: pointer;
+}
+
 .aside__menu {
 	margin: 10px 0;
 	display: flex;
