@@ -4,12 +4,12 @@ import Chatbot from "../components/chatbot/Chatbot.jsx";
 import Footer from "./Footer";
 
 export default function MainLayout({ children }) {
-	return (
-		<>
-			<Header />
-			<main className="bodyLayout">{children}</main>
-			<Chatbot />
-			<Footer />
-		</>
-	);
+  return (
+    <>
+      <Header />
+      <main>{children}</main>
+      <Chatbot />
+      <Footer />
+    </>
+  );
 }
