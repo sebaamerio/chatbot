@@ -6,25 +6,25 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function HomeCard({ title, descripcion, image, link }) {
-	const handlerLink = () => {
-		window.open(link, "_blank");
-	};
-	return (
-		<Card sx={{ maxWidth: 250 }}>
-			<CardMedia sx={{ height: 140 }} image={image} title={title} />
-			<CardContent>
-				<Typography gutterBottom variant="h5" component="div">
-					{title}
-				</Typography>
-				<Typography variant="body2" sx={{ color: "text.secondary" }}>
-					{descripcion}
-				</Typography>
-			</CardContent>
-			<CardActions>
-				<Button size="small" onClick={handlerLink}>
-					ACCEDER
-				</Button>
-			</CardActions>
-		</Card>
-	);
+  const handlerLink = () => {
+    window.open(link, "_blank");
+  };
+  return (
+    <Card sx={{ maxWidth: 250 }}>
+      <CardMedia sx={{ height: 140 }} image={image} title={title} />
+      <CardContent sx={{ minHeight: 150 }}>
+        <Typography gutterBottom variant="h5" component="div">
+          {title}
+        </Typography>
+        <Typography variant="body2" sx={{ color: "text.secondary" }}>
+          {descripcion}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small" onClick={handlerLink}>
+          ACCEDER
+        </Button>
+      </CardActions>
+    </Card>
+  );
 }
