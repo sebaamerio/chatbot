@@ -59,17 +59,3 @@
 	justify-content: center;
 	gap: 30px;
 }
-
-.main__nav2 {
-	margin: 0 auto;
-	margin-top: 20px;
-	padding: 10px;
-	height: auto;
-	max-width: 810px;
-
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-	align-items: center;
-	justify-content: center;
-	gap: 15px;
-}
