@@ -17,11 +17,18 @@
 	font-family: "EncodeSansRegular";
 	src: url("./fonts/Encode_Sans/static/EncodeSans-Regular.ttf") format("truetype");
 }
-#root {
-	width: 100%;
-	margin: 0 auto;
+* {
+	box-sizing: border-box;
 }
-
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1em;
+}
+h3 {
+	font-size: 1.25em;
+}
 body {
 	margin: 0;
 	background: #fff;
