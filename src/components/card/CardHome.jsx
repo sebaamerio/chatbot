@@ -1,4 +1,3 @@
-import * as React from "react";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -11,9 +10,9 @@ export default function HomeCard({ title, descripcion, image, link }) {
     window.open(link, "_blank");
   };
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia sx={{ height: 140 }} image={image} title="green iguana" />
-      <CardContent>
+    <Card sx={{ maxWidth: 250 }}>
+      <CardMedia sx={{ height: 140 }} image={image} title={title} />
+      <CardContent sx={{ minHeight: 150 }}>
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>

@@ -2,7 +2,7 @@ import "./Footer.css";
 import iconPhone from "../assets/icon-telefono.png";
 import iconReloj from "../assets/icon-reloj.png";
 import iconCarta from "../assets/icon-carta.png";
-import iconInterno from "../assets/icon-interno.png";
+import iconInterno from "../assets/icon-interno.jpg";
 import ImageBsAsFooter from "../assets/provincia_Footer.png";
 import social_fb from "../assets/social-fb.png";
 import social_tw from "../assets/social-tw.png";
@@ -82,7 +82,7 @@ export default function Header() {
               </div>
             </nav>
             <header className="aside__title">Uso Interno</header>
-            <nav className="aside__nav">
+            <nav className="aside__navlink">
               <div className="aside__menu">
                 <img src={iconInterno} alt="Email" />
                 <span className="aside__text" onClick={handlerInterno}>

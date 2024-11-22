@@ -1,21 +1,18 @@
-header {
+.headerLayout {
   background-color: #f1f1f1;
   margin-bottom: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.headerLayout {
+.header__container {
   height: 190px;
-  left: 0;
-  top: 0;
   overflow: hidden;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5),
-    0 10px 64px -500px rgba(0, 0, 0, 0.1);
+  justify-content: center;
 }
 
-header .headerLayout__logo_vtv {
+.headerLayout__logo_vtv {
   margin-left: 80px;
   padding: 10px 10px;
 }

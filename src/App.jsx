@@ -1,9 +1,12 @@
+import MainLayout from "./layout/MainLayout.jsx";
 import Home from "./pages/Home.jsx";
 
 function App() {
   return (
     <>
-      <Home />
+      <MainLayout>
+        <Home />
+      </MainLayout>
     </>
   );
 }
