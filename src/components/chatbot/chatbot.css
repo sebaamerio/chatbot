@@ -20,7 +20,7 @@
 
 .chatbot {
 	width: 360px;
-	margin: 15px;
+	margin-bottom: 20px;
 	background: #f8f6f6;
 	border-radius: 15px;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5), 0 10px 64px -500px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@
 	font-family: "Exo2-Regular";
 	position: fixed;
 	bottom: 90px;
-	right: 50px;
+	right: 10px;
 	z-index: 9;
 }
 
