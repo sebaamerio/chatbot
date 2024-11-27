@@ -1,5 +1,11 @@
 import { useEffect, useState } from "react";
 
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+
 import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
 import SendIcon from "@mui/icons-material/Send";
@@ -14,8 +20,13 @@ import "./chatbot.css";
 function Chatbot() {
 	const { chatBot, addChat, clearChat } = useChatbot();
 	const { menu, iniciarMenu, addMenu, clearMenu } = useMenu();
-
 	const [showBot, setShowBot] = useState(true);
+
+	const [openDialog, setOpenDialog] = useState(false);
+
+	const handleClose = () => {
+		setOpenDialog(false);
+	};
 
 	useEffect(() => {
 		iniciarMenu();
@@ -33,7 +44,13 @@ function Chatbot() {
 	};
 
 	const handlerChatOnline = () => {
-		window.location.href = "https://livechat.soportevtv.com.ar/livechat";
+		const fecha = new Date();
+		const hora = fecha.getHours;
+		if (hora >= 10 && hora <= 16) {
+			window.location.href = "https://livechat.soportevtv.com.ar/livechat";
+		} else {
+			setOpenDialog(true);
+		}
 	};
 
 	const handlerBot = () => {
@@ -134,6 +151,28 @@ function Chatbot() {
 					</div>
 				</div>
 			</div>
+
+			<Dialog
+				open={openDialog}
+				onClose={handleClose}
+				aria-labelledby="alert-dialog-title"
+				aria-describedby="alert-dialog-description"
+			>
+				<DialogTitle id="alert-dialog-title">
+					{"En este momento nuestros operadores están off-line."}
+				</DialogTitle>
+				<DialogContent>
+					<DialogContentText id="alert-dialog-description">
+						Por favor, envíanos un mail a pruebasoportevtv@gmail.com y a la brevedad te estaremos
+						respondiendo.
+						<br />
+						<br />O vuelva a contactarse en el horario de 10 a 16hs
+					</DialogContentText>
+				</DialogContent>
+				<DialogActions>
+					<Button onClick={handleClose}>Cerrar</Button>
+				</DialogActions>
+			</Dialog>
 		</>
 	);
 }
