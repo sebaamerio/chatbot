@@ -137,6 +137,7 @@
 .chatbot__inicio {
 	margin: 20px 10px 10px 0px;
 	display: flex;
+	flex-direction: column;
 	gap: 15px;
 }
 
