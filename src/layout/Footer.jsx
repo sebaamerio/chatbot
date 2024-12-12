@@ -37,15 +37,15 @@ export default function Header() {
               <div className="aside__menu">
                 <img src={iconReloj} alt="Reloj" />
                 <span className="aside__text">
-                  Lunes a Viernes de 09 a 15 hs
+                  Lunes a Viernes de 08 a 16 hs
                 </span>
               </div>
 
               <div className="aside__menu">
                 <img src={iconCarta} alt="Email" />
                 <span className="aside__text">
-                  <a href="mailto:usuariosvtv@transporte.gba.gob.ar">
-                    usuariosvtv@transporte.gba.gob.ar
+                  <a href="mailto: info@soportevtv.com.ar">
+                    info@soportevtv.com.ar
                   </a>
                 </span>
               </div>

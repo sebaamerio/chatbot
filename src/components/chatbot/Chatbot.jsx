@@ -47,7 +47,7 @@ function Chatbot() {
     const fecha = new Date();
     const hora = fecha.getHours();
     console.log(hora);
-    if (hora >= 10 && hora < 16) {
+    if (hora >= 8 && hora < 16) {
       window.location.href = "https://livechat.soportevtv.com.ar/livechat";
     } else {
       setOpenDialog(true);
@@ -167,7 +167,7 @@ function Chatbot() {
             Por favor, envíanos un mail a pruebasoportevtv@gmail.com y a la
             brevedad te estaremos respondiendo.
             <br />
-            <br />O vuelva a contactarse en el horario de 10 a 16hs
+            <br />O vuelva a contactarse en el horario de 08 a 16hs
           </DialogContentText>
         </DialogContent>
         <DialogActions>

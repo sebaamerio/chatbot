@@ -52,7 +52,7 @@
   {
     "id": 203,
     "type": "Text",
-    "descripcion": "Para solicitar un turno de la VTV, siga estos pasos:<br><br>1-Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\" target=\"_blank\">Portal VTV</a> con su usuario y contraseña.<br><br>2-En la sección MIS VEHÍCULOS, ubique el vehículo correspondiente y haga clic en SOLICITAR TURNO junto a la patente.<br><br>Nota: Si no le aparece el botón \"Solicitar Turno\", esto puede indicar que el vehículo ya tiene un turno asignado desde otra cuenta. En ese caso, por favor comuníquese a <a href=\"mailto:info@vtv.gba.gob.ar\">info@vtv</a> para que podamos verificarlo. <br><br>3-Seleccione una planta y una fecha en el calendario.<br>Las fechas disponibles aparecerán en color celeste o verde; las fechas en color blanco indican falta de disponibilidad o que la planta está inhabilitada. <br><br>4-Tras elegir la fecha y el horario, confirme el turno.<br><br>Recibirá el comprobante de su turno en su correo electrónico. <br><br>Nota adicional: Si no visualiza el vehículo para el cual desea solicitar el turno, deberá cargarlo en la sección MIS VEHÍCULOS. <br>",
+    "descripcion": "Para solicitar un turno de la VTV, siga estos pasos:<br><br>1-Ingrese al portal en <a href=\"https://portal.vtv.gba.gob.ar\" target=\"_blank\">Portal VTV</a> con su usuario y contraseña.<br><br>2-En la sección MIS VEHÍCULOS, ubique el vehículo correspondiente y haga clic en SOLICITAR TURNO junto a la patente.<br><br>Nota: Si no le aparece el botón \"Solicitar Turno\", esto puede indicar que el vehículo ya tiene un turno asignado desde otra cuenta. En ese caso, por favor comuníquese a <a href=\"mailto:info@soportevtv.com.ar\">info@vtv</a> para que podamos verificarlo. <br><br>3-Seleccione una planta y una fecha en el calendario.<br>Las fechas disponibles aparecerán en color celeste o verde; las fechas en color blanco indican falta de disponibilidad o que la planta está inhabilitada. <br><br>4-Tras elegir la fecha y el horario, confirme el turno.<br><br>Recibirá el comprobante de su turno en su correo electrónico. <br><br>Nota adicional: Si no visualiza el vehículo para el cual desea solicitar el turno, deberá cargarlo en la sección MIS VEHÍCULOS. <br>",
     "idPadre": 202
   },
   {
@@ -88,7 +88,7 @@
   {
     "id": 209,
     "type": "Text",
-    "descripcion": "Si no se presenta el día de su verificación, el sistema lo inhabilitará para reservar un nuevo turno durante 72 horas. <br><br>Pasadas las 72 horas, si aún no puede reservar, le solicitamos que se comunique con nuestra mesa de ayuda a <a href=\"mailto:info@vtv.gba.gob.ar\">info@vtv</a>, para reportar el error.",
+    "descripcion": "Si no se presenta el día de su verificación, el sistema lo inhabilitará para reservar un nuevo turno durante 72 horas. <br><br>Pasadas las 72 horas, si aún no puede reservar, le solicitamos que se comunique con nuestra mesa de ayuda a <a href=\"mailto:info@soportevtv.com.ar\">info@vtv</a>, para reportar el error.",
     "idPadre": 208
   },
   {
@@ -172,7 +172,7 @@
   {
     "id": 405,
     "type": "Text",
-    "descripcion": "Exención de pago para personas con CUD<br><br>Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación: <br>1-Exención de pago de ARBA. <br>2-Símbolo de uso correspondiente. <br>3-Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<br><br>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco. <br><br>La exención se otorga para un (1) solo vehículo por año. <br><br>Para obtener más información, puede consultar <a href=\"https://www.vtv.minfra.gba.gob.ar\" target=\"_blank\">este enlace</a> o comunicarse a través del correo: <a href=\"mailto:usuariosvtv@transporte.gba.gob.ar\">usuariosvtv@transporte.gba.gob.ar</a>.",
+    "descripcion": "Exención de pago para personas con CUD<br><br>Para solicitar la exención de pago de la VTV en planta, deberá presentar la siguiente documentación: <br>1-Exención de pago de ARBA. <br>2-Símbolo de uso correspondiente. <br>3-Certificado de discapacidad emitido por el Ministerio de Salud (de la Provincia o Nación).<br><br>El vehículo debe estar a nombre de un familiar hasta segundo grado de parentesco. <br><br>La exención se otorga para un (1) solo vehículo por año. <br><br>Para obtener más información, puede consultar <a href=\"https://www.vtv.minfra.gba.gob.ar\" target=\"_blank\">este enlace</a> o comunicarse a través del correo: <a href=\"mailto: info@soportevtv.com.ar\"> info@soportevtv.com.ar</a>.",
     "idPadre": 404
   },
   {
@@ -238,7 +238,7 @@
   {
     "id": 508,
     "type": "Text",
-    "descripcion": "Las plantas tienen distintos horarios.<br><br>Por favor, envíe un e-mail a <a href=\"mailto:info@vtv.gba.ar\">info@vtv.gba.ar</a>, indicando la planta para que le puedan informar.",
+    "descripcion": "Las plantas tienen distintos horarios.<br><br>Por favor, envíe un e-mail a <a href=\"mailto:info@soportevtv.com.ar\">info@soportevtv.com.ar</a>, indicando la planta para que le puedan informar.",
     "idPadre": 507
   },
   {
